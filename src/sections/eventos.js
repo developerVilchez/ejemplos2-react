@@ -1,7 +1,8 @@
 import React from 'react';
 
 // Indicar que el tema de los eventos en react hace que sean compatibles en todos los navegadores
-// El segundo tema con los eventos es enlazar al contexto correspondiente
+// El segundo tema con los eventos es enlazar al contexto correspondiente. Lo podemos hacer de dos maneras:
+// bindeando el contexto y a través de una arrow function
 
 class Contact2 extends React.Component {
 
